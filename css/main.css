@@ -23,15 +23,28 @@
 }
 
 body{
-	font-size: 14px;
+	font-size: 16px;
 	font-family: 'sink';
 	font-weight: 400;
+    color: #fff;
 }
 
 h2{
     font-size: 80px;
     font-family: 'herculanum';
     color: var(--color-blue);
+}
+
+h3{
+    font-size: 60px;
+    font-family: 'herculanum';
+    color: #fff;
+}
+
+h4{
+    color: #ccc;
+    font-family: 'herculanum';
+    font-size: 40px;
 }
 
 #first{
@@ -104,3 +117,78 @@ h2{
 #second img{
     width: inherit;
 }
+
+#second p{
+    padding: 35px 25px;
+}
+
+#history2 video{
+    width: 80%;
+}
+
+#thirt h3{
+    color: var(--color-blue);
+    margin-top: 20px;
+}
+
+#thirt img{
+    width: inherit;
+    height: inherit;
+}
+.img-korra{
+    padding: 80px;
+}
+
+#thirt .fp-controlArrow.fp-prev{
+    border-color: transparent var(--color-blue) transparent transparent;
+}
+
+#thirt .fp-controlArrow.fp-next{
+    border-color: transparent transparent transparent var(--color-blue);
+}
+
+#thirt p{
+    color: #333;
+}
+
+#thirt .carcters-text{
+    padding: 100px 20px;
+}
+
+#thirt h4{
+    margin-bottom: 50px;
+}
+  
+#forth{
+    background: var(--color-blue);
+}
+
+#forth img{
+    width: inherit;
+    opacity: 0.8;
+}
+
+button{
+    background: transparent;
+    padding: 10px 25px;
+    color:#fff;
+    border: 2px solid;
+    font-size: 22px;
+    position: absolute;
+    bottom: 40%;
+    left: 30%;
+    cursor: pointer;
+}
+
+button:hover{
+   background-color:rgba(0,0,0,0.5);
+}
+
+.p-t-15{
+    padding-top: 15px;
+}
+
+.p-b-15{
+    padding-bottom: 15px;
+}
+
