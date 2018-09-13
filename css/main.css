@@ -168,7 +168,7 @@ h4{
     opacity: 0.8;
 }
 
-button{
+.temp-button button{
     background: transparent;
     padding: 10px 25px;
     color:#fff;
@@ -180,7 +180,7 @@ button{
     cursor: pointer;
 }
 
-button:hover{
+.temp-button button:hover{
    background-color:rgba(0,0,0,0.5);
 }
 
@@ -194,7 +194,7 @@ button:hover{
 
 .player {
     width: 100%;
-    max-width: 280px;
+    max-width: 240px;
     padding: 20px;
     margin: 10px auto;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.35);
@@ -241,7 +241,6 @@ button:hover{
   width: 100%;
   display: flex;
   justify-content: space-around;
-  margin: 20px 0;
 }
 .player .player-buttons .playerbtn i {
   font-size: 25px;
@@ -252,5 +251,40 @@ button:hover{
 .player .player-buttons .playerbtn i:hover {
   color: #ccc;
 }
+
+.modal h5{
+    font-size: 30px;
+    font-family: 'herculanum';
+    color: var(--color-blue);
+}
+
+.modal-header{
+    border-bottom: none;
+}
+
+.modal-content{
+    border-radius: 0;
+}
+
+.modal-body ul{
+    padding-left: 10px;
+    color: #333;
+}
+
+.modal-body li{
+    list-style-type: none; 
+    margin-bottom: 10px;
+}
+
+.modal-body .number{
+    color: #ccc;
+}
+
+@media (min-width: 576px){
+    .modal-dialog {
+        max-width: 700px;
+    }
+}
+
 
 
