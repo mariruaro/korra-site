@@ -15,9 +15,19 @@ $(document).ready(function() {
         issuesSpeed:  300,
         datesSpeed:   100,
         arrowKeys:    'true',
-        startAt:      3
+        startAt:      1
   	});
    
+	$(document).on('click', '.fa-play', function(e){
+		$(e.target).addClass("fa-pause");
+		$(e.target).removeClass("fa-play");
+		$('#music-audio').trigger("play");
+	});
 
+	$(document).on('click', '.fa-pause', function(e){
+		$(e.target).addClass("fa-play");
+		$(e.target).removeClass("fa-pause");
+		$('#music-audio').trigger("pause");
+	});
 
 });
